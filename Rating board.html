@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Redmi Note 10 User Rating</title>
+	<style>
+        body 
+    	{
+			background-image: url('https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Redmi_Note_10_xiaomi_2_4.jpg');
+			background-repeat: repeat-y;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+        h1
+        {
+            color: #03001C;
+            text-align: center;
+		    background-color: #eadab6;
+			max-width: 500px;
+			margin: 70px auto;
+			padding: 50px 40px;
+			box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+        
+		.star-rating 
+        {
+			display: inline-block;
+			font-size: 0;
+			width: 150px;
+			height: 30px;
+			margin: 20px;
+            text-align: center;
+			overflow: hidden;
+			vertical-align: bottom;
+		}
+		.star-rating input[type="radio"] 
+        {
+			display: none;
+		}
+		.star-rating label 
+        {
+			display: inline-block;
+			font-size: 25px;
+			color: #ceb7b7;
+			cursor: pointer;
+		}
+		.star-rating label:before 
+        {
+			content: "\2605";
+			margin-right: 5px;
+		}
+		.star-rating input[type="radio"]:checked ~ label 
+        {
+			color: #291e01;
+		}
+        * 
+        {
+            box-sizing: border-box;
+        }
+.heading {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
+	</style>
+</head>
+<body>
+	<h1>Redmi Note 10 User Rating</h1>
+	<p>Please rate the Redmi Note 10:</p>
+	<form>
+	<div class="star-rating">
+		<input type="radio" name="rating" id="rating-5" value="5">
+		<label for="rating-5"></label>
+		<input type="radio" name="rating" id="rating-4" value="4">
+		<label for="rating-4"></label>
+		<input type="radio" name="rating" id="rating-3" value="3">
+		<label for="rating-3"></label>
+		<input type="radio" name="rating" id="rating-2" value="2">
+		<label for="rating-2"></label>
+		<input type="radio" name="rating" id="rating-1" value="1">
+		<label for="rating-1"></label>
+	</div>
+	<button type="submit">Submit Rating</button>
+</form>
+
+	<p>Thank you for your rating!</p>
+    <p>4.1 average based on 254 reviews.</p>
+    <hr style="border:3px solid #f1f1f1">
+    <div class="row">
+        <div class="side">
+            <div>5 star</div>
+        </div>
+        <div class="middle">
+            <div class="bar-container">
+                <div class="bar-5"></div>
+        </div>
+    </div>
+    <div class="side right">
+        <div>150</div>
+    </div>
+    <div class="side">
+        <div>4 star</div>
+    </div>
+    <div class="middle">
+        <div class="bar-container">
+        <div class="bar-4"></div>
+    </div>
+    </div>
+        <div class="side right">
+        <div>63</div>
+    </div>
+    <div class="side">
+        <div>3 star</div>
+    </div>
+    <div class="middle">
+        <div class="bar-container">
+        <div class="bar-3"></div>
+    </div>
+    </div>
+    <div class="side right">
+        <div>15</div>
+    </div>
+    <div class="side">
+        <div>2 star</div>
+    </div>
+    <div class="middle">
+        <div class="bar-container">
+        <div class="bar-2"></div>
+    </div>
+    </div>
+    <div class="side right">
+    <div>6</div>
+  </div>
+  <div class="side">
+    <div>1 star</div>
+  </div>
+  <div class="middle">
+    <div class="bar-container">
+      <div class="bar-1"></div>
+    </div>
+  </div>
+  <div class="side right">
+    <div>20</div>
+  </div>
+</div>
+</body>
+</html>
