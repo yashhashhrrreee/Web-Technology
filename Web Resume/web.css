@@ -1,0 +1,121 @@
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #7e0c0c;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a
+{
+    color: white;
+text-decoration: none;
+}
+nav a:hover 
+{
+    color: #f2f2f2;
+    }
+    
+    main {
+    margin: 20px;
+    }
+    
+    section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #da656579;
+    border-radius: 10px;
+    }
+    
+    section h2 
+    {
+    margin-top: 0;
+    }
+    
+    section ul {
+    margin: 0;
+    padding: 0;
+    }
+    
+    section li {
+    margin: 10px 0;
+    }
+    
+    section ul ul {
+    margin-left: 20px;
+    }
+    
+    footer {
+    background-color: #7e0c0c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    }
+    
+    a {
+    border: none;
+    }
+    
+    /* Counter */
+    ul {
+    counter-reset: my-counter;
+    }
+    
+    li::before {
+    counter-increment: my-counter;
+    content: counter(my-counter) ". ";
+    }
+    
+    /* Rounded Corners */
+    header {
+    border-radius: 10px;
+    }
+    
+    section {
+    border-radius: 10px;
+    }
+    
+    footer {
+    border-radius: 10px;
+    }
+    
+    /* Border Images */
+    body 
+    {
+    border: 10px solid #7e0c0c;
+    border-image: url("border.png") 30 repeat;
+    }
+    
+    /* Background */
+    #about {
+    background-image: url("about-bg.jpg");
+    background-size: cover;
+    color: rgb(28, 8, 8);
+    }
+    
+    /* Border Radius */
+    ul {
+    border-radius: 10px;
+    }
